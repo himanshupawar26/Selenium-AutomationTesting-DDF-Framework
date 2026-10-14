@@ -1,0 +1,7 @@
+caseName,username,password,expectedResult,expectedMessageContains
+valid standard user,standard_user,secret_sauce,success,
+locked out user,locked_out_user,secret_sauce,failure,locked out
+wrong password,standard_user,wrong_password,failure,do not match
+unknown user,not_a_real_user,secret_sauce,failure,do not match
+empty username,,secret_sauce,failure,Username is required
+empty password,standard_user,,failure,Password is required
