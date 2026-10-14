@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium DDF Suite" parallel="methods" thread-count="2" verbose="1">
+    <listeners>
+        <listener class-name="com.himanshupawar.ui.listeners.TestListener"/>
+    </listeners>
+    <test name="Sauce Demo UI Regression">
+        <classes>
+            <class name="com.himanshupawar.ui.tests.LoginTest"/>
+            <class name="com.himanshupawar.ui.tests.InventoryTest"/>
+        </classes>
+    </test>
+</suite>

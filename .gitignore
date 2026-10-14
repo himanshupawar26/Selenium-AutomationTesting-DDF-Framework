@@ -1,0 +1,19 @@
+# Maven
+target/
+
+# TestNG default output dir (we write reports under target/ instead)
+test-output/
+
+# IDE
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
